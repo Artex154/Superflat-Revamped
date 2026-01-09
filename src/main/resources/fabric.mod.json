@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "superflat_revamped",
+	"version": "${version}",
+	"name": "Superflat Revamped",
+	"description": "This mod adds more features to Minecraft Superflat!",
+	"authors": [
+		"Artex54"
+	],
+	"contact": {
+		"sources": "https://github.com/Artex154/Superflat-Revamped",
+		"email": "a.stockelynck12@outlook.com",
+		"issues": "Please report issues on discord: artex54"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"be.artex.SuperflatRevamped"
+		]
+	},
+	"mixins": [
+		"superflat_revamped.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
