@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "superflat_revamped:block/slime_flower"
+  }
+}

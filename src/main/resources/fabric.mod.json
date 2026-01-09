@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"be.artex.SuperflatRevamped"
+		],
+		"client": [
+			"be.artex.SuperflatRevampedClient"
 		]
 	},
 	"mixins": [

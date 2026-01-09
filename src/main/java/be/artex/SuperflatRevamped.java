@@ -1,5 +1,6 @@
 package be.artex;
 
+import be.artex.block.ModBlocks;
 import be.artex.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class SuperflatRevamped implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initialize();
+		ModBlocks.initialize();
 	}
 }
